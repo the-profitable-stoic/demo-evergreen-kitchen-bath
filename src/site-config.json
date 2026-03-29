@@ -1,0 +1,714 @@
+{
+  "business": {
+    "name": "Evergreen Kitchen & Bath",
+    "phone": "(404) 555-0219",
+    "category": "kitchen-remodel",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "effects": [
+        "glassmorphism",
+        "text-gradient",
+        "shadow-depth",
+        "hover-glow"
+      ],
+      "layout": {
+        "heroAlignment": "center",
+        "contentWidth": "standard",
+        "gridStyle": "asymmetric"
+      },
+      "personality": {
+        "boldness": 0.5,
+        "animationIntensity": "subtle",
+        "spacingMultiplier": 1.25
+      },
+      "id": "remodel-contemporary-lux",
+      "categoryGroup": "remodel",
+      "name": "Contemporary Lux",
+      "colors": {
+        "primary": "#7C3AED",
+        "primaryDark": "#5B21B6",
+        "primaryLight": "#EDE9FE",
+        "secondary": "#18181B",
+        "accent": "#A78BFA",
+        "background": "#FAFAFA",
+        "backgroundAlt": "#18181B",
+        "surface": "#F4F4F5",
+        "text": "#18181B",
+        "textLight": "#71717A",
+        "textOnDark": "#FAFAFA",
+        "border": "#E4E4E7"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Outfit",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.3"
+      },
+      "shape": {
+        "borderRadius": "10px",
+        "buttonRadius": "10px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "light",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "scale",
+        "spacingScale": "generous"
+      },
+      "compatibleComponents": {
+        "nav": [
+          {
+            "name": "CenteredLogo",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "NavScrollAware",
+            "variants": [
+              "default",
+              "minimal"
+            ]
+          }
+        ],
+        "hero": [
+          {
+            "name": "SplitImage",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "MinimalClean",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "HeroOverlap",
+            "variants": [
+              "default",
+              "centered"
+            ]
+          },
+          {
+            "name": "HeroVideoFrame",
+            "variants": [
+              "default",
+              "wide"
+            ]
+          },
+          {
+            "name": "HeroTextFocus",
+            "variants": [
+              "centered",
+              "bold"
+            ]
+          }
+        ],
+        "services": [
+          {
+            "name": "TabbedShowcase",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "ServicesBento",
+            "variants": [
+              "default",
+              "alt",
+              "compact"
+            ]
+          },
+          {
+            "name": "ServicesShowcase",
+            "variants": [
+              "default",
+              "split"
+            ]
+          }
+        ],
+        "testimonials": [
+          {
+            "name": "CarouselSlider",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "TestimonialsFeatured",
+            "variants": [
+              "default",
+              "centered"
+            ]
+          },
+          {
+            "name": "TestimonialsMarquee",
+            "variants": [
+              "default",
+              "double"
+            ]
+          }
+        ],
+        "cta": [
+          {
+            "name": "FloatingCard",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "CtaSplit",
+            "variants": [
+              "default",
+              "reversed"
+            ]
+          }
+        ],
+        "gallery": [
+          {
+            "name": "LightboxGrid",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "BeforeAfter",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "MasonryGrid",
+            "variants": [
+              "default"
+            ]
+          }
+        ],
+        "contact": [
+          {
+            "name": "SidebarForm",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "SplitFormMap",
+            "variants": [
+              "default"
+            ]
+          }
+        ],
+        "footer": [
+          {
+            "name": "MinimalClean",
+            "variants": [
+              "default"
+            ]
+          },
+          {
+            "name": "FooterColumns",
+            "variants": [
+              "default",
+              "compact"
+            ]
+          },
+          {
+            "name": "FooterCta",
+            "variants": [
+              "minimal"
+            ]
+          }
+        ],
+        "trust": [
+          {
+            "name": "TrustBar",
+            "variants": [
+              "stats",
+              "minimal"
+            ]
+          },
+          {
+            "name": "TrustBanner",
+            "variants": [
+              "light"
+            ]
+          }
+        ]
+      }
+    },
+    "components": {
+      "nav": {
+        "name": "NavScrollAware",
+        "variant": "minimal"
+      },
+      "hero": {
+        "name": "HeroVideoFrame",
+        "variant": "default"
+      },
+      "services": {
+        "name": "ServicesShowcase",
+        "variant": "split"
+      },
+      "testimonials": {
+        "name": "TestimonialsFeatured",
+        "variant": "default"
+      },
+      "cta": {
+        "name": "CtaSplit",
+        "variant": "reversed"
+      },
+      "gallery": {
+        "name": "MasonryGrid",
+        "variant": "default"
+      },
+      "contact": {
+        "name": "SplitFormMap",
+        "variant": "default"
+      },
+      "footer": {
+        "name": "MinimalClean",
+        "variant": "default"
+      },
+      "trust": {
+        "name": "TrustBanner",
+        "variant": "light"
+      }
+    },
+    "activeEffects": [
+      "glassmorphism",
+      "text-gradient",
+      "shadow-depth",
+      "hover-glow"
+    ],
+    "colorStrategy": "inverted",
+    "sectionOrder": [
+      "hero",
+      "trust",
+      "about",
+      "valueProps",
+      "services",
+      "cta",
+      "testimonials",
+      "gallery",
+      "contact"
+    ]
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Transform Your Atlanta Kitchen",
+      "heroSubline": "Bespoke kitchen remodels designed for Georgia homes. From historic bungalows to modern subdivisions, we create spaces that blend beauty with Southern functionality.",
+      "aboutTitle": "Crafting Atlanta's Favorite Kitchens",
+      "aboutText": [
+        "Founded in 2012, Evergreen Kitchen & Bath began as a two-person operation serving Midtown's historic homes. Today, our team of 20+ specialists brings over a decade of Atlanta-specific remodeling expertise to every project.",
+        "We approach each kitchen as a unique puzzle - considering Georgia's humid climate, red clay soil shifts, and your family's gumbo-making traditions. Our designs balance timeless craftsmanship with smart storage solutions for Southern living.",
+        "When we're not installing custom cabinets, you'll find our team volunteering at Atlanta Community Food Bank or sponsoring Little Five Points festivals. These kitchens feed our community in more ways than one."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adaptive Materials",
+          "description": "We specify humidity-resistant finishes and expansion-friendly installations to withstand Atlanta's seasonal shifts."
+        },
+        {
+          "title": "Local Design Insight",
+          "description": "From Buckhead townhomes to Alpharetta McMansions, we understand how Atlantans actually use their kitchens."
+        },
+        {
+          "title": "Full-Service Coordination",
+          "description": "Our project managers handle permits from Fulton County to Cobb County - you enjoy the process."
+        },
+        {
+          "title": "Heritage Home Specialists",
+          "description": "We preserve original charm while updating Virginia-Highland bungalows with modern functionality."
+        }
+      ],
+      "ctaHeadline": "Ready for Your Dream Kitchen?",
+      "ctaSubline": "Schedule a design consultation at your Marietta, Roswell, or Atlanta home today."
+    },
+    "services": [
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Complete kitchen transformations tailored to Atlanta's architectural styles.",
+        "description": "Our full kitchen remodels honor your home's character while introducing contemporary convenience. For Midtown's historic bungalows, we might preserve original hardwood floors while installing custom Shaker cabinets with soft-close hinges to combat Georgia's humidity. In Johns Creek's newer developments, we often create open-concept layouts with quartz countertops that withstand busy family life.\n\nAtlanta's red clay soil demands special attention to cabinet leveling - our installers use premium shimming techniques to prevent shifting. We frequently incorporate deep pantries for Southern staple storage and pot-filler faucets positioned for gumbo prep. Every design includes ventilation solutions for those sizzling summer fry sessions.",
+        "process": [
+          "Step 1: On-site consultation assessing your home's structure, climate considerations, and cooking habits",
+          "Step 2: 3D renderings showing layout options with Atlanta-appropriate traffic flow",
+          "Step 3: Careful demolition preserving reusable materials common in older Atlanta homes",
+          "Step 4: Installation with humidity-controlled adhesives and expansion gaps for Georgia seasons"
+        ],
+        "benefits": [
+          "Materials selected for Atlanta's 90% summer humidity",
+          "Layouts that work with (not against) your home's original architecture",
+          "Built-in solutions for Southern cooking traditions",
+          "Permit navigation for Fulton, Cobb, and Gwinnett counties"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle remodeling in Atlanta's older homes?",
+            "answer": "We conduct thorough structural assessments before touching walls in pre-1950s homes. Many Virginia-Highland kitchens require custom cabinet sizing to fit original dimensions while meeting modern needs."
+          },
+          {
+            "question": "What's your approach to open-concept remodels?",
+            "answer": "In Roswell's ranch homes, we often reinforce load-bearing walls before creating pass-throughs. Our designs maintain distinct cooking zones while improving sightlines - crucial for supervising kids in adjacent rooms."
+          },
+          {
+            "question": "Do you work with historic district guidelines?",
+            "answer": "Yes, we're experienced with Inman Park's preservation requirements. We can source reproduction hardware and match original molding profiles while upgrading functionality."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-installation",
+        "name": "Cabinet Installation",
+        "shortDescription": "Precision cabinet solutions for Atlanta's humidity fluctuations.",
+        "description": "Georgia's climate wreaks havoc on poorly installed cabinetry. Our team specializes in installations that accommodate seasonal expansion and contraction. For Marietta's 1970s colonials, we often retrofit existing cabinet boxes with new doors and humidity-sealed interiors. In Alpharetta's newer homes, we install full custom systems with adjustable shelving for growing families.\n\nWe pay special attention to cabinet bases in areas with red clay soil, using reinforced leveling systems. Our installers leave strategic expansion gaps filled with flexible silicone that won't crack when foundations shift. For homes near the Chattahoochee, we recommend marine-grade finishes on lower cabinets as extra protection against humidity.",
+        "process": [
+          "Step 1: Precise laser measurements accounting for Atlanta's common wall irregularities",
+          "Step 2: Custom fabrication or careful modification of stock cabinets",
+          "Step 3: Climate-controlled adhesive application and reinforced hanging systems",
+          "Step 4: Final adjustments after seasonal settling occurs"
+        ],
+        "benefits": [
+          "Doors that stay aligned through humid summers",
+          "Interior organizers designed for Southern pantry staples",
+          "Finish options resistant to pollen and humidity",
+          "Solutions for awkward Atlanta kitchen layouts"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my existing Atlanta bungalow's cabinets?",
+            "answer": "We maintain relationships with local mills that replicate historic profiles. For Craftsman homes, we often use quartersawn oak with traditional mortise-and-tenon joinery."
+          },
+          {
+            "question": "How do you prevent mold in cabinet interiors?",
+            "answer": "Our standard installation includes moisture barriers and ventilation cutouts behind cabinets. For problem areas like Dunwoody basements, we add integrated dehumidifier systems."
+          }
+        ]
+      },
+      {
+        "slug": "countertop-replacement",
+        "name": "Countertop Replacement",
+        "shortDescription": "Durable surfaces selected for Georgia lifestyles.",
+        "description": "From kneading dough to cooling peach cobbler, Atlanta countertops face unique challenges. We guide homeowners toward materials that balance beauty and practicality. For Buckhead's entertainers, we often recommend leathered granite that hides wine stains. In Kennesaw's family kitchens, quartz composites withstand homework sessions and cookie decorating alike.\n\nOur installation process addresses Georgia's foundation movement with flexible underlayment systems. We extend countertop seams in strategic locations to allow for seasonal shifting without visible cracks. For homes near Piedmont Park, we frequently incorporate integrated cutting boards and marble pastry stations sized for Southern recipe volumes.",
+        "process": [
+          "Step 1: Assessment of existing substrate and structural support",
+          "Step 2: Templating with digital scanners for perfect fit",
+          "Step 3: Installation with expansion joints sized for Atlanta's temperature swings",
+          "Step 4: Sealing with premium products rated for high humidity"
+        ],
+        "benefits": [
+          "Materials tested for thermal shock (hot pans to AC-chilled kitchens)",
+          "Seam placement strategies for Atlanta's shifting foundations",
+          "Edge profiles that complement your home's era",
+          "Maintenance regimens for Georgia's pollen seasons"
+        ],
+        "faq": [
+          {
+            "question": "What's the best countertop for Atlanta's humidity?",
+            "answer": "Quartz resists moisture best, but we can treat natural stone with penetrating sealers for older homes where authenticity matters. For contemporary spaces, sintered stone handles both humidity and thermal shock."
+          },
+          {
+            "question": "How do you handle countertops in uneven Atlanta homes?",
+            "answer": "Our laser leveling system identifies variations early. We build up substrates with moisture-resistant materials before installation, creating a perfectly flat surface that lasts."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-design",
+        "name": "Kitchen Design",
+        "shortDescription": "Atlanta-specific layouts blending Southern charm with modern flow.",
+        "description": "Great kitchen design in Atlanta requires understanding how locals live. We create spaces where sweet tea pitchers share space with espresso machines. For Old Fourth Ward's loft dwellers, we might design compact galley kitchens with professional-grade appliances. In Roswell's sprawling suburbs, our designs often include baking stations and double islands for holiday gatherings.\n\nWe analyze your home's traffic patterns - considering everything from kids' backpack drops to tailgate prep routines. Our designs frequently incorporate: hidden charging stations for Delta flight attendants, pull-out spice racks sized for Cajun seasoning collections, and appliance garages that conceal bulky air fryers. For historic homes, we replicate original details while improving workflow.",
+        "process": [
+          "Step 1: Lifestyle assessment documenting your family's cooking and entertaining rhythms",
+          "Step 2: Existing space evaluation noting Atlanta-specific structural considerations",
+          "Step 3: Concept development with material samples suited to Georgia's climate",
+          "Step 4: Final plans including contractor-ready technical drawings"
+        ],
+        "benefits": [
+          "Storage solutions for Southern cooking traditions",
+          "Lighting plans that account for Georgia's variable daylight",
+          "Ventilation strategies for fried chicken Fridays",
+          "Universal design options for multi-generational Atlanta households"
+        ],
+        "faq": [
+          {
+            "question": "How do you improve storage in small Atlanta kitchens?",
+            "answer": "We specialize in vertical storage for bungalows, with tall cabinets reaching up to 10' ceilings. Appliance lifts and under-counter fold-outs maximize every inch in Midtown's smaller spaces."
+          },
+          {
+            "question": "Can you design for both daily meals and large gatherings?",
+            "answer": "Our dual-zone designs keep weekday breakfast nooks separate from party prep areas. For Marietta homes, we often incorporate hidden second sinks that emerge when entertaining."
+          }
+        ]
+      },
+      {
+        "slug": "flooring-installation",
+        "name": "Flooring Installation",
+        "shortDescription": "Kitchen floors that handle Atlanta's humidity and high heels.",
+        "description": "Between pollen season and rainy winters, Atlanta kitchen floors endure constant abuse. We install surfaces that maintain their beauty through Georgia's extremes. For Sandy Springs' active families, we often recommend luxury vinyl plank with textured finishes that prevent slips. In historic Inman Park homes, we carefully match original heart pine while adding modern moisture barriers.\n\nOur subfloor preparations are legendary - addressing red clay's expansion with specialized underlayment systems. We leave expansion gaps disguised with matching silicone that flexes with seasonal movement. For homes near the BeltLine, we frequently install radiant heating beneath tile floors - cozy for winter mornings yet cool during summer brunches.",
+        "process": [
+          "Step 1: Moisture testing and subfloor evaluation",
+          "Step 2: Climate-controlled material acclimation (3-5 days for wood products)",
+          "Step 3: Precision installation with Atlanta-specific expansion allowances",
+          "Step 4: Protective finish application suited to your neighborhood's microclimate"
+        ],
+        "benefits": [
+          "Materials tested for Atlanta's 70° annual temperature swing",
+          "Non-slip finishes that handle rainy school drop-offs",
+          "Historic reproduction options for preservation districts",
+          "Easy-clean surfaces for Georgia's red clay mud"
+        ],
+        "faq": [
+          {
+            "question": "What flooring works best with Atlanta's humidity?",
+            "answer": "Porcelain tile and certain engineered woods outperform solid hardwood in damp basements. For ranch homes, we often use cork - naturally moisture-resistant and gentle on aging knees."
+          },
+          {
+            "question": "How do you handle uneven floors in older homes?",
+            "answer": "Our self-leveling compounds create flat surfaces without compromising original structure. For severe slopes (common in Druid Hills), we design graduated installations that look intentional."
+          }
+        ]
+      },
+      {
+        "slug": "backsplash-tile",
+        "name": "Backsplash Tile",
+        "shortDescription": "Statement walls designed for Atlanta's cooking styles.",
+        "description": "A backsplash in Atlanta needs to be equal parts style and substance. We design splash zones that protect walls from frying oil splatter while elevating your kitchen's aesthetic. For Buckhead's contemporary homes, we might install large-format porcelain with minimal grout lines. In Virginia-Highland's bungalows, handmade subway tile replicates historic charm with modern ease.\n\nOur installers are artists with trowels - creating perfect patterns despite Atlanta's often uneven walls. We use epoxy grout in high-splash zones (near stoves and prep sinks) to prevent mildew in humid months. For homes near Krog Street Market, we frequently incorporate local artisan tiles depicting Georgia motifs - peaches, dogwoods, or abstract BeltLine interpretations.",
+        "process": [
+          "Step 1: Wall surface preparation (repairing Atlanta's common plaster irregularities)",
+          "Step 2: Custom layout planning highlighting your kitchen's best angles",
+          "Step 3: Precision installation with moisture-resistant adhesives",
+          "Step 4: Grout selection and sealing for your cooking habits"
+        ],
+        "benefits": [
+          "Easy-wipe surfaces for Georgia's sticky summer cooking",
+          "Historic reproduction tiles for preservation projects",
+          "Creative solutions for awkward Atlanta kitchen walls",
+          "Integrated outlets and switch plates for seamless looks"
+        ],
+        "faq": [
+          {
+            "question": "What tile stands up to Atlanta's humidity?",
+            "answer": "Glass and porcelain tiles resist moisture best. For historic homes, we use cement tiles sealed with penetrating protectants that don't alter their matte finish."
+          },
+          {
+            "question": "Can you tile around my uneven old Atlanta walls?",
+            "answer": "Absolutely. Our craftsmen expertly vary mortar thickness to create flawless surfaces. In extreme cases, we might float walls first - a common need in Candler Park's vintage cottages."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta",
+        "state": "GA",
+        "content": "Marietta homeowners trust us to update their 1960s-70s kitchens for modern living. We frequently work in established neighborhoods like East Cobb, where original cabinets are ready for refreshment but the homes' solid bones deserve preservation. Our Marietta projects often involve reconfiguring galley kitchens into open-concept spaces perfect for family gatherings near the Square.\n\nLocal challenges like summer humidity demand special attention to material selection. We specify moisture-resistant cabinet finishes that withstand Marietta's muggy Augusts while complementing the area's traditional architecture. Many of our projects here incorporate dedicated coffee stations - a nod to Marietta's thriving café culture.",
+        "localContext": "Marietta's established subdivisions feature spacious kitchens needing updates to accommodate today's entertaining styles, with particular attention required for humidity control.",
+        "nearbyAreas": [
+          "Smyrna",
+          "Kennesaw",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell",
+        "state": "GA",
+        "content": "In Roswell's upscale 1980s-90s neighborhoods, we transform dated kitchens into showpieces worthy of Atlanta's Northside. Homes along the Chattahoochee often require our expertise in humidity-resistant materials - we frequently install rift-cut oak cabinets with advanced sealing systems here. Our Roswell designs frequently incorporate butler's pantries perfect for Canton Street entertaining.\n\nWe understand Roswell homeowners' expectations for both luxury and practicality. Many projects include custom appliance garages to conceal bulky air fryers and stand mixers while maintaining sleek aesthetics. For historic district homes, we meticulously match original trim profiles when updating kitchen layouts.",
+        "localContext": "Roswell's upscale subdivisions demand high-end finishes that perform in Georgia's humidity, with particular attention to preserving sightlines to backyard pools and outdoor living areas.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta",
+        "state": "GA",
+        "content": "Alpharetta's 1990s-2000s kitchens often need upgrades to match today's technology-centric lifestyles. We specialize in integrating smart features seamlessly into Avalon-area homes - from hidden charging stations to voice-controlled lighting. Our Alpharetta projects frequently include specialty zones like coffee bars and wine refrigerators sized for entertaining.\n\nThe area's newer construction allows for bold design choices. We often install dramatic waterfall countertops in Alpharetta's great rooms, using materials that withstand both heavy use and Georgia's seasonal shifts. For homes near downtown, we design kitchens that transition effortlessly from family breakfasts to corporate catering prep.",
+        "localContext": "Alpharetta's upscale developments feature large kitchens needing tech integration and entertainment-focused layouts, with materials selected for low maintenance amidst busy family schedules.",
+        "nearbyAreas": [
+          "Johns Creek",
+          "Roswell",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek",
+        "state": "GA",
+        "content": "Johns Creek homeowners expect kitchens as refined as the area's country clubs. We create culinary spaces that balance elegance with everyday functionality - perfect for both quick weeknight dinners and elaborate Diwali feasts. Our Johns Creek projects often feature double islands with contrasting countertops to define prep and serving zones.\n\nWe're experts at navigating the area's strict HOA guidelines while delivering distinctive designs. Many kitchens here incorporate luxury details like integrated knife blocks and refrigerated drawer units near pantries. For homes near the Chattahoochee, we specify finishes that resist moisture without sacrificing style.",
+        "localContext": "Johns Creek's upscale subdivisions demand high-end materials and innovative storage solutions, with designs that accommodate both daily family life and large-scale entertaining.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Duluth",
+          "Suwanee"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw",
+        "state": "GA",
+        "content": "Kennesaw's 1980s-90s suburban kitchens often need layout improvements to match modern lifestyles. We specialize in opening up these compartmentalized spaces while maintaining their cozy charm. Our Kennesaw projects frequently involve removing soffits to maximize cabinet space - a common need in Barrett Parkway area homes.\n\nWe understand Kennesaw families' practical needs. Many designs include durable quartz countertops near backpacks drops and message centers that handle school paperwork chaos. For homes near the battlefield, we often incorporate historic references through cabinet hardware and lighting choices that nod to the area's heritage.",
+        "localContext": "Kennesaw's suburban developments feature functional kitchens needing layout modernization, with materials selected to withstand active family life and Georgia's humidity.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Atlanta",
+        "slug": "atlanta",
+        "state": "GA",
+        "content": "From Midtown high-rises to Virginia-Highland bungalows, we understand Atlanta's diverse kitchen needs. Our intown projects range from restoring original features in Druid Hills estates to creating space-saving solutions for Old Fourth Ward lofts. We navigate Atlanta's historic district regulations seamlessly while delivering modern functionality.\n\nCity living presents unique challenges - we design for everything from narrow row house kitchens to expansive Buckhead estates. Many intown projects incorporate sound-dampening materials for condo living and compact appliances that don't sacrifice performance. For homes near the BeltLine, we create kitchens that transition effortlessly to outdoor entertaining spaces.",
+        "localContext": "Atlanta's varied neighborhoods demand specialized approaches - from historic preservation in Grant Park to contemporary minimalism in West Midtown, all while addressing urban space constraints.",
+        "nearbyAreas": [
+          "Decatur",
+          "Brookhaven",
+          "Sandy Springs"
+        ]
+      },
+      {
+        "city": "Decatur",
+        "slug": "decatur",
+        "state": "GA",
+        "content": "Decatur's foodie culture demands kitchens that perform as beautifully as they look. We create spaces equally suited to farmers market hauls and late-night takeout. Our Decatur projects often feature professional-grade ranges with powerful ventilation - essential for the area's enthusiastic home chefs.\n\nWe honor the city's historic character while introducing modern conveniences. Many kitchens near the Square incorporate reclaimed heart pine shelves and locally made tile backsplashes. For Decatur's older homes, we design custom solutions for awkward spaces - like refrigerator enclosures that preserve original archways.",
+        "localContext": "Decatur's mix of historic homes and food-focused residents requires kitchens that blend old-world charm with serious culinary capability, all in compact footprints.",
+        "nearbyAreas": [
+          "Avondale Estates",
+          "Clarkston",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs",
+        "state": "GA",
+        "content": "Sandy Springs homeowners expect luxury that stands up to real life. We design kitchens that handle everything from Roswell Road traffic to lakeside entertaining. Our projects here often incorporate durable yet elegant materials - like leathered granite countertops that hide fingerprints from busy families.\n\nWe understand the area's blend of urban and suburban lifestyles. Many designs include separate prep zones for weekday meals and weekend entertaining. For homes near the river, we specify moisture-resistant finishes that maintain their beauty despite Georgia's humidity. Our Sandy Springs kitchens frequently feature butler's pantries perfect for catering staff during large events.",
+        "localContext": "Sandy Springs' upscale homes demand sophisticated designs with practical durability, often requiring seamless transitions between indoor and outdoor entertaining spaces.",
+        "nearbyAreas": [
+          "Roswell",
+          "Dunwoody",
+          "Atlanta"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Margaret T.",
+        "rating": 5,
+        "service": "Kitchen Remodeling",
+        "text": "Evergreen transformed our 1940s Virginia-Highland bungalow kitchen while preserving its charm. They replicated original cabinet profiles but added soft-close hinges and pull-out shelves that make cooking so much easier. The team even matched our home's historic molding when creating the new breakfast nook.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Cabinet Installation",
+        "text": "After two failed attempts with other contractors, Evergreen finally got our Johns Creek cabinet doors to stay aligned through Georgia's humidity swings. Their custom humidity-sealed storage solution for our spice collection is a game-changer for Indian cooking.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lisa and Mark W.",
+        "rating": 5,
+        "service": "Countertop Replacement",
+        "text": "Our Marietta quartz counters survived a Thanksgiving disaster when a hot roasting pan was set directly on the surface - no stain or scorch mark! The team's precise installation left no gaps for crumbs to collect, and the integrated pastry marble slab is my baking secret weapon.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Kitchen Design",
+        "text": "As a chef, I needed an Atlanta kitchen that could handle both family meals and occasional catering prep. Evergreen's design includes a commercial-grade vent hood disguised as a beautiful focal point, and their custom knife storage is sharper than any restaurant I've worked in.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Nia J.",
+        "rating": 5,
+        "service": "Flooring Installation",
+        "text": "The luxury vinyl plank Evergreen recommended for our Sandy Springs kitchen looks like hardwood but handles our two dogs' muddy paws effortlessly. Their subfloor prep made all the difference - no squeaks or gaps even after last winter's freeze.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Thomas R.",
+        "rating": 5,
+        "service": "Backsplash Tile",
+        "text": "Finding someone who could tile around our Buckhead kitchen's uneven plaster walls felt impossible until we met Evergreen. Their solution using varying mortar thickness created a flawless surface, and the Krog Street Market-inspired accent tiles are everyone's first comment when they visit.",
+        "date": "2024-08-12"
+      },
+      {
+        "name": "Elena S.",
+        "rating": 5,
+        "service": "Full Kitchen Remodel",
+        "text": "Our Roswell '90s kitchen went from dated to dreamy while maintaining functionality for our twin teenagers. The team incorporated a second dishwasher drawer near the breakfast area and designed a snack zone that keeps the main workspace clear. Six months later, everything still works perfectly.",
+        "date": "2024-07-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Kitchen Remodeling Experts | Evergreen Kitchen & Bath",
+        "description": "Bespoke kitchen remodels designed for Georgia homes. Serving Marietta, Roswell, Alpharetta and metro Atlanta with climate-smart renovations since 2012."
+      },
+      "about": {
+        "title": "About Our Atlanta Kitchen Remodeling Company",
+        "description": "Learn how Evergreen Kitchen & Bath brings 12+ years of Georgia-specific expertise to every Atlanta-area kitchen renovation project."
+      },
+      "services": {
+        "title": "Kitchen Remodeling Services in Atlanta, GA",
+        "description": "From cabinet installation to countertop replacement, discover our complete range of Atlanta kitchen remodeling services designed for Georgia homes."
+      },
+      "contact": {
+        "title": "Contact Atlanta's Kitchen Remodeling Specialists",
+        "description": "Schedule your kitchen design consultation with Evergreen Kitchen & Bath. Serving Marietta, Roswell, Alpharetta and all metro Atlanta neighborhoods."
+      },
+      "reviews": {
+        "title": "Atlanta Kitchen Remodeling Reviews",
+        "description": "Read verified customer testimonials about our kitchen remodeling work in Marietta, Roswell, Alpharetta and throughout metro Atlanta."
+      },
+      "service-areas": {
+        "title": "Kitchen Remodeling Service Areas Near Atlanta",
+        "description": "We serve homeowners in Marietta, Roswell, Alpharetta, Johns Creek, Kennesaw and throughout metro Atlanta with premium kitchen renovations."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "about": "/images/about.webp",
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "cabinet-installation": "/images/service-cabinet-installation.webp",
+      "countertop-replacement": "/images/service-countertop-replacement.webp",
+      "kitchen-design": "/images/service-kitchen-design.webp",
+      "flooring-installation": "/images/service-flooring-installation.webp",
+      "backsplash-tile": "/images/service-backsplash-tile.webp"
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ]
+  }
+}
